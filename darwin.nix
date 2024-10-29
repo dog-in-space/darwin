@@ -42,6 +42,10 @@ homebrew = {
     "zen-browser"
   ];
 
+  caskArgs = {
+    no_quarantine = true;
+  };
+
   masApps = {
     "Copilot Budget" = 1447330651;
   };
